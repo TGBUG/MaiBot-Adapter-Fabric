@@ -35,6 +35,11 @@ public class ModConfig {
         return config;
     }
 
+    public static ModConfig reload() {
+        LOGGER.info("Reloading config from {}", CONFIG_PATH);
+        return load();
+    }
+
     public void save() {
         try {
             Files.createDirectories(CONFIG_PATH.getParent());

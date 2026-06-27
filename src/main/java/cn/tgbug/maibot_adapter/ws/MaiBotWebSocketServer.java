@@ -32,6 +32,10 @@ public class MaiBotWebSocketServer extends WebSocketServer {
         this.minecraftServer = server;
     }
 
+    public int getAuthenticatedClientCount() {
+        return (int) authMap.values().stream().filter(Boolean.TRUE::equals).count();
+    }
+
     // ── WebSocketServer overrides ────────────────────────────────────
 
     @Override
