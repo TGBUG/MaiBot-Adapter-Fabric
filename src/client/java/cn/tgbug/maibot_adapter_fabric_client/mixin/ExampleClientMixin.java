@@ -1,4 +1,4 @@
-package cn.tgbug.client.mixin;
+package cn.tgbug.maibot_adapter_fabric_client.mixin;
 
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;

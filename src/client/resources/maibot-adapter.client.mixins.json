@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "cn.tgbug.client.mixin",
+	"package": "cn.tgbug.maibot_adapter_fabric_client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
 		"ExampleClientMixin"

@@ -1,6 +1,6 @@
-package cn.tgbug.maibot_adapter.ws;
+package cn.tgbug.maibot_adapter_fabric.ws;
 
-import cn.tgbug.maibot_adapter.config.ModConfig;
+import cn.tgbug.maibot_adapter_fabric.config.ModConfig;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import net.minecraft.network.chat.Component;

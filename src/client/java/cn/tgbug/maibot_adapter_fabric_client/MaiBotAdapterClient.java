@@ -1,4 +1,4 @@
-package cn.tgbug.client;
+package cn.tgbug.maibot_adapter_fabric_client;
 
 import net.fabricmc.api.ClientModInitializer;
 

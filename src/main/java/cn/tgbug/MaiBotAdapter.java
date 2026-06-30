@@ -1,7 +1,7 @@
 package cn.tgbug;
 
-import cn.tgbug.maibot_adapter.config.ModConfig;
-import cn.tgbug.maibot_adapter.ws.MaiBotWebSocketServer;
+import cn.tgbug.maibot_adapter_fabric.config.ModConfig;
+import cn.tgbug.maibot_adapter_fabric.ws.MaiBotWebSocketServer;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.arguments.StringArgumentType;

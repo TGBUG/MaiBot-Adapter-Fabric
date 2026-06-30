@@ -1,4 +1,4 @@
-package cn.tgbug.maibot_adapter.config;
+package cn.tgbug.maibot_adapter_fabric.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
